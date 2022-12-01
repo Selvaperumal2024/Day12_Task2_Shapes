@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+
+.cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    align-content: center;
+    width: 800px;
+    ;
+}
+
+.shapes {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 2px dotted black;
+    background-color: aquamarine;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(68, 0, 255);
+    cursor: pointer;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(247, 251, 124);
+    border-radius: 100px/50px;
+    cursor: pointer;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(215, 95, 157);
+    cursor: pointer;
+}
+
+
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+    cursor: pointer;
+}
